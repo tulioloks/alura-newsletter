@@ -1,5 +1,7 @@
-function App () {
-  return <h1>Batatinha</h1>
+import Header from "./components/Header/Header";
+
+const App = () => {
+  return <Header />
 }
 
 
