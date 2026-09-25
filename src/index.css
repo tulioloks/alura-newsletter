@@ -1,2 +1,36 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-dark-100: rgb(18 18 18);
+  --color-dark-200: rgb(51 51 51);
+  --color-alura-100: #167bf7;
+  --color-alura-200: #051933;
+}
+
+@layer base {
+  h1{
+    @apply text-gray-100 text-xl sm:cursor-pointer sm:hover:text-2xl;
+  }
+}
+
+@layer components{
+  .alura-input {
+    @apply py-1 pl-5 w-full max-w-lg bg-gray-50 dark:bg-dark-200 text-dark-200 dark:text-gray-200 rounded-full outline-none mx-5 placeholder:text-gray-400 placeholder:dark:text-gray-600 placeholder:uppercase placeholder:text-xs placeholder:font-bold focus:border-2 focus:border-alura-200 focus:dark:border-alura-100 invalid:focus:border-2 invalid:focus:border-red-400 dark:focus:invalid:border-2 dark:focus:invalid:border-red-400 caret-alura-200 dark:caret-alura-100;
+  
+  }
+
+  .alura-button{
+    @apply py-1 px-6 w-full  max-w-sm bg-alura-100 dark:bg-dark-200 rounded-full text-gray-200 cursor-pointer uppercase outline-none hover:animate-pulse hover:shadow-sm hover:shadow-gray-500 hover:dark:shadow-black hover:-translate-y-1 hover:delay-100; 
+  }
+
+  .alura-card {
+    @apply p-5 bg-gray-200 dark:bg-dark-200 sm:rounded-xl sm:shadow-lg flex gap-2 flex-col items-center sm:hover:shadow-gray-400 sm:hover:shadow-lg;
+  }
+
+  .alura-tag{
+    @apply bg-alura-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 text-xs uppercase font-bold hover:scale-110 hover:bg-gradient-to-r hover:from-alura-200;
+  }
+}
+
+

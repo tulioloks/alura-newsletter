@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Como a inteligência artificial está mudando o desenvolvimento",
+    "text": [
+      "Novas ferramentas de inteligência artificial estão transformando a forma como desenvolvedores escrevem e revisam código.",
+      "Automação de tarefas repetitivas permite que as equipes concentrem mais tempo na criação de soluções.",
+      "Apesar dos avanços, compreender os fundamentos da programação continua sendo essencial."
+    ],
+    "tags": ["ia", "programação", "tecnologia"]
+  },
+  {
+    "title": "Construindo APIs modernas com Node.js",
+    "text": [
+      "Node.js permite criar aplicações rápidas e escaláveis utilizando JavaScript no lado do servidor.",
+      "Uma API bem estruturada facilita a comunicação entre diferentes aplicações e serviços.",
+      "Boas práticas de organização e segurança são fundamentais para projetos que crescem rapidamente."
+    ],
+    "tags": ["node", "api", "backend"]
+  },
+  {
+    "title": "Os fundamentos que todo desenvolvedor deveria conhecer",
+    "text": [
+      "Entender lógica de programação ajuda a resolver problemas de diferentes áreas da tecnologia.",
+      "Estruturas de dados e algoritmos são importantes para desenvolver soluções eficientes.",
+      "O conhecimento dos fundamentos também facilita o aprendizado de novas linguagens."
+    ],
+    "tags": ["algoritmos", "programação", "desenvolvimento"]
+  },
+  {
+    "title": "Por que o TypeScript ganhou espaço no desenvolvimento web",
+    "text": [
+      "TypeScript adiciona tipagem estática ao JavaScript e pode ajudar a identificar problemas durante o desenvolvimento.",
+      "Projetos maiores podem se beneficiar de contratos mais claros entre funções, componentes e módulos.",
+      "A linguagem pode ser utilizada tanto no front-end quanto no back-end."
+    ],
+    "tags": ["typescript", "javascript", "web"]
+  },
+  {
+    "title": "Criando interfaces modernas com React",
+    "text": [
+      "React permite construir interfaces utilizando componentes reutilizáveis e independentes.",
+      "A divisão da aplicação em componentes facilita a manutenção e a evolução do projeto.",
+      "Com ferramentas como Tailwind CSS, também é possível desenvolver interfaces responsivas de maneira eficiente."
+    ],
+    "image": "/exemple.jpg",
+    "alt": "Screenshot do Youtube com o episódio do podcast rodando",
+    "tags": ["react", "frontend", "tailwind"]
+    
+  }
+]
